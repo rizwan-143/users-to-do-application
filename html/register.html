@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/app.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <title>register</title>
+</head>
+<body>
+    
+
+    <div class="container-fluid">
+        <div class="row f-height">
+            <div class="col-sm-12 col-md-8 user-register-logo  p-0"> </div>
+            <div class="col-sm-12 col-md-4 d-flex align-items-center justify-content-center p-0">
+                <div class="card w-100">
+                    <div class="card-header">
+                        <h5 class="text-uppercase">register now</h5>
+                    </div>
+                    <div class="card-body">
+                        <form action="" class="d-flex flex-column" id="my-registration-form">
+                            <label for="user-registration-name">full name</label>
+                            <input type="text" name="userRegistrationName" id="user-registration-name" class="p-2 rounded-pill border-1 border border-secondary text-secondary" placeholder="enter name to register">
+                                <label for="user-registrion-email"> email</label>
+                            <input type="email" name="userRegistrationEmail" id="user-registrion-email" class="p-2 mt-4 rounded-pill border-1 border border-secondary text-secondary" placeholder="enter email to register">
+                            <label for="user-registration-password" class="text-uppercase mt-4"> password</label>
+                            <input type="password" name="userRegistrationPassword" id="user-registration-password" class="p-2 rounded-pill border-1 border border-secondary text-secondary" placeholder="ente password to register">
+                            <button type="submit" class="w-100 border-0 p-2 mt-4 rounded text-uppercase bg-success text-white">register</button>
+                        </form>
+                    </div>
+                    <div class="card-footer border-0">
+                        <p class="mt-3"> have an account <span class="text-decoration-underline text-primary fw-bold" id="log-in">login</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="../js/register.js"></script>
+</body>
+</html>
