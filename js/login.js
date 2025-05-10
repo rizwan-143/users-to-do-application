@@ -37,3 +37,8 @@ myLoginForm.addEventListener(`submit` , function(event){
     alert("enter a valid password or email !");
    }
 })
+
+
+// let signUp = document.getElementById("sign-up");
+
+// signUp.style.cursor = "pointer";

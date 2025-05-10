@@ -51,7 +51,7 @@ event.target.reset();
 })
 
 let login = document.getElementById("log-in");
-
+login.style.cursor = "pointer";
 login.addEventListener("click" , function(){
     window.location.href = "../index.html";
 })
